@@ -1,0 +1,7 @@
+public class JavaBasics {
+    public static void main(String args[]) {
+        System.out.print("Hello world\n");// line spacefor ln after print
+        System.out.print("Hello world");
+        System.out.println("Hello world");
+    }
+}
