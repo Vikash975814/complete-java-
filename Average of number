@@ -1,0 +1,10 @@
+public class JavaPromotion {
+    public static void main(String s[]) {
+        int A = 10;
+        char B = 'B';
+        short C = 20;
+        int Avg = (A + B + C) / 3;
+        System.out.println((int) (B));
+        System.out.println(Avg);
+    }
+}
