@@ -1,0 +1,10 @@
+public class JavaPromotion {
+    public static void main(String s[]) {
+        int a = 40;
+        float b = 20.25f;
+        long c = 50;
+        //double d = 30;
+        float  ans = a + c + b ;
+        System.out.println(ans);//(2)  java automatically converts long float in double.
+    }
+}
