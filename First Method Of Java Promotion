@@ -1,0 +1,15 @@
+public class JavaPromotion {
+    public static void main(String s[]) {
+        char a = 'a';
+        char b = 'b';
+        byte c = 34;
+        short d = 22;
+        int i = 33;
+        System.out.println((int) (b));
+        System.out.println((int) (a));
+        System.out.println(a);
+        System.out.println(a - b + c + i + d);// (1)java automatically promotes char,byte and short convertes in
+                                          // integer
+
+    }
+}
