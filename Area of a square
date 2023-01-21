@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class JavaPromotion {
+    public static void main(String s[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the side");
+        int side = sc.nextInt();
+        int Area = side * side;
+        System.out.println("Your Area is:");
+        System.out.println(Area);
+
+    }
+}
