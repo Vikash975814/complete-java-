@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class JavaPromotion {
+    public static void main(String s[])
+
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the pencil cost");
+        float Pencil = sc.nextFloat();
+        System.out.println("Enter the pen cost");
+        float pen = sc.nextFloat();
+        System.out.println("Enter the eraser cost");
+        float eraser = sc.nextFloat();
+        float TotalCost = Pencil + pen + eraser;
+        System.out.println("Total Bill is:" + TotalCost);
+        float newTotal = TotalCost + (0.18f * TotalCost);
+        System.out.println("Bill With 18% tax:" + newTotal);
+    }
+}
