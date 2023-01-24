@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Base {
+    public static void main(String s[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number");
+        int N = sc.nextInt();
+        if (N % 2 == 0) {
+            System.out.println("Number is even");
+        } else {
+            System.out.println("Number is odd");
+        }
+    }
+}
