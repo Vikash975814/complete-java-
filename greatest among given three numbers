@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Base {
+    public static void main(String s[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int N1 = sc.nextInt();
+        System.out.println("Enter the second number");
+        int N2 = sc.nextInt();
+        System.out.println("Enter the third number");
+        int N3 = sc.nextInt();
+        if (N1 > N2 && N1 > N3) {
+            System.out.println("N1 is greatest");
+        } else if (N2 > N3) {
+            System.out.println("N2 is greatest");
+        } else {
+            System.out.println("N3 is greatest");
+        }
+    }
+}
