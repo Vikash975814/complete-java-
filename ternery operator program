@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Base {
+    public static void main(String s[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int N1 = sc.nextInt();
+        System.out.println("Enter the second number");
+        int N2 = sc.nextInt();
+        int number = (N1 > N2) ? N1 : N2;
+        System.out.println("Largest number is given both number=" + number);
+
+    }
+}
