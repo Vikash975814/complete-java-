@@ -1,0 +1,10 @@
+public class Base {
+    public static void main(String s[]) {
+        float temp = 103.2f;
+        if (temp >= 100) {
+            System.out.println("You have fever");
+        } else {
+            System.out.println("You have not fever");
+        }
+    }
+}
